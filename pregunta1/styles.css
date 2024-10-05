@@ -1,0 +1,47 @@
+/* Personalización adicional (opcional) */
+@media (max-width: 768px) {
+    body {
+        background-size: contain; /* Hace que la imagen se ajuste mejor en pantallas pequeñas */
+        background-position: top;
+    }
+}
+
+/* Eliminar el margen del div que contiene la imagen */
+.navbar {
+    margin-top: 0; /* Ajusta el valor según sea necesario */
+}
+
+body {
+   
+    background-color: #305a85; /* Fija la imagen al fondo */
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+.footer-background {
+    background-color: #127e99; /* Color de fondo que desees */
+    color: #ffffff; /* Color del texto */
+}
+
+/* Efecto de hover en los enlaces del navbar */
+.navbar-nav .nav-link {
+    position: relative; /* Para posicionar el pseudo-elemento */
+    color: #000000; /* Color del texto por defecto */
+    overflow: hidden; /* Asegura que el efecto de fondo no se desborde */
+    transition: background-color 0.3s ease; /* Transición suave para el fondo */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: aqua; /* Color de fondo al pasar el mouse */
+}
+
+.form-container {
+    max-width: 500px; /* Ancho máximo del formulario */
+    margin: auto; /* Centrar el formulario */
+}
+
+.text-white {
+    color: white;
+}
